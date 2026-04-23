@@ -1,18 +1,23 @@
 window.portfolioProjects = [
   {
-    "id": "sapienta",
-    "title": "Sapienta",
-    "category": "design",
-    "categoryLabel": "UI Desing",
+    "id": "sapientanew",
+    "title": "SapientaNew",
+    "category": "frontend",
+    "categoryLabel": "Разработка",
     "year": "2026",
-    "role": "UI design",
-    "cover": "assets/projects/sapienta/cover.jpg",
-    "summary": "Дизайн проекта",
-    "description": "Дизайн проекта 2",
-    "links": [],
+    "role": "frontend",
+    "cover": "assets/projects/sapientanew/cover.jpg",
+    "summary": "frontend developing",
+    "description": "frontend developing",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/f0rt1qx/TestPlatform"
+      }
+    ],
     "gallery": [
-      "assets/projects/sapienta/cover.jpg",
-      "assets/projects/sapienta/screen-01.png"
+      "assets/projects/sapientanew/cover.jpg",
+      "assets/projects/sapientanew/screen-01.png"
     ]
   }
 ];
