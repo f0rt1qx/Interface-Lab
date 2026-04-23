@@ -16,3 +16,13 @@ npm.cmd run add-project
 - ставит новый проект первым в списке.
 
 Категории для фильтров: `design`, `frontend`, `media`.
+
+## Как удалить проект
+
+Запусти:
+
+```powershell
+npm.cmd run remove-project
+```
+
+Мастер удалит карточку из `data/projects.js` и спросит, нужно ли удалить папку с изображениями.
