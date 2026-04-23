@@ -1,92 +1,103 @@
 window.portfolioProjects = [
   {
-    id: "sapienta",
-    title: "Sapienta",
-    category: "frontend",
-    categoryLabel: "Веб-платформа",
-    year: "2026",
-    role: "PHP, MySQL, HTML, CSS, JavaScript",
-    cover: "assets/projects/Sapienta/cover.png",
-    summary:
-      "Платформа для онлайн-тестирования студентов с личным кабинетом, админ-панелью, результатами и контролем прохождения.",
-    description:
-      "Sapienta — учебная веб-система для проведения онлайн-тестирования. В проекте реализованы регистрация и авторизация пользователей, личный кабинет студента, прохождение тестов с таймером, автоматическое сохранение результатов, админ-панель для управления пользователями, тестами и вопросами, импорт тестов из CSV, античит-логи и запись экрана во время тестирования. Стек проекта: PHP 8+, MySQL/MariaDB, HTML, CSS и JavaScript; для безопасности используются JWT, сессии, CSRF-защита, подготовленные SQL-запросы и проверка роли администратора.",
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/f0rt1qx/TestPlatform",
-      },
-    ],
-    gallery: [
-      "assets/projects/Sapienta/cover.png",
-      "assets/projects/Sapienta/screen-01.png",
-    ],
+    "id": "https-testplatform-rf-gd-index-php",
+    "title": "Sapiento",
+    "category": "design",
+    "categoryLabel": "Просто сайт",
+    "year": "2026",
+    "role": "UI design",
+    "cover": "assets/projects/https-testplatform-rf-gd-index-php/cover.png",
+    "summary": "Просто сайт",
+    "description": "Просто сайт 2",
+    "links": [],
+    "gallery": [
+      "assets/projects/https-testplatform-rf-gd-index-php/cover.png",
+      "assets/projects/https-testplatform-rf-gd-index-php/screen-01.png"
+    ]
   },
   {
-    id: "creative-studio",
-    title: "Концепт сайта для креативной студии",
-    category: "design",
-    categoryLabel: "Дизайн",
-    year: "2026",
-    role: "UI design, visual concept",
-    cover: "assets/projects/creative-studio/cover.svg",
-    summary: "Главная страница, визуальная система, сетка, карточки услуг и стиль презентации.",
-    description:
-      "Пример карточки проекта. Замени текст, изображения и ссылки на свой реальный кейс, чтобы работодатель быстро понял задачу, твою роль и результат.",
-    links: [
+    "id": "sapienta",
+    "title": "Sapienta",
+    "category": "frontend",
+    "categoryLabel": "Веб-платформа",
+    "year": "2026",
+    "role": "PHP, MySQL, HTML, CSS, JavaScript",
+    "cover": "assets/projects/Sapienta/cover.png",
+    "summary": "Платформа для онлайн-тестирования студентов с личным кабинетом, админ-панелью, результатами и контролем прохождения.",
+    "description": "Sapienta — учебная веб-система для проведения онлайн-тестирования. В проекте реализованы регистрация и авторизация пользователей, личный кабинет студента, прохождение тестов с таймером, автоматическое сохранение результатов, админ-панель для управления пользователями, тестами и вопросами, импорт тестов из CSV, античит-логи и запись экрана во время тестирования. Стек проекта: PHP 8+, MySQL/MariaDB, HTML, CSS и JavaScript; для безопасности используются JWT, сессии, CSRF-защита, подготовленные SQL-запросы и проверка роли администратора.",
+    "links": [
       {
-        label: "Figma",
-        url: "https://figma.com",
-      },
+        "label": "GitHub",
+        "url": "https://github.com/f0rt1qx/TestPlatform"
+      }
     ],
-    gallery: [
+    "gallery": [
+      "assets/projects/Sapienta/cover.png",
+      "assets/projects/Sapienta/screen-01.png"
+    ]
+  },
+  {
+    "id": "creative-studio",
+    "title": "Концепт сайта для креативной студии",
+    "category": "design",
+    "categoryLabel": "Дизайн",
+    "year": "2026",
+    "role": "UI design, visual concept",
+    "cover": "assets/projects/creative-studio/cover.svg",
+    "summary": "Главная страница, визуальная система, сетка, карточки услуг и стиль презентации.",
+    "description": "Пример карточки проекта. Замени текст, изображения и ссылки на свой реальный кейс, чтобы работодатель быстро понял задачу, твою роль и результат.",
+    "links": [
+      {
+        "label": "Figma",
+        "url": "https://figma.com"
+      }
+    ],
+    "gallery": [
       "assets/projects/creative-studio/cover.svg",
       "assets/projects/creative-studio/screen-01.svg",
-      "assets/projects/creative-studio/screen-02.svg",
-    ],
+      "assets/projects/creative-studio/screen-02.svg"
+    ]
   },
   {
-    id: "animated-landing",
-    title: "Адаптивный лендинг с анимациями",
-    category: "frontend",
-    categoryLabel: "Разработка",
-    year: "2026",
-    role: "HTML, CSS, JavaScript",
-    cover: "assets/projects/animated-landing/cover.svg",
-    summary: "Чистая структура, быстрый первый экран, интерактивные блоки и мобильная версия.",
-    description:
-      "Здесь можно показать frontend-проект: ссылку на сайт, GitHub, скриншоты, видео процесса и короткое объяснение технических решений.",
-    links: [
+    "id": "animated-landing",
+    "title": "Адаптивный лендинг с анимациями",
+    "category": "frontend",
+    "categoryLabel": "Разработка",
+    "year": "2026",
+    "role": "HTML, CSS, JavaScript",
+    "cover": "assets/projects/animated-landing/cover.svg",
+    "summary": "Чистая структура, быстрый первый экран, интерактивные блоки и мобильная версия.",
+    "description": "Здесь можно показать frontend-проект: ссылку на сайт, GitHub, скриншоты, видео процесса и короткое объяснение технических решений.",
+    "links": [
       {
-        label: "GitHub",
-        url: "https://github.com/f0rt1qx",
-      },
+        "label": "GitHub",
+        "url": "https://github.com/f0rt1qx"
+      }
     ],
-    gallery: [
+    "gallery": [
       "assets/projects/animated-landing/cover.svg",
-      "assets/projects/animated-landing/screen-01.svg",
-    ],
+      "assets/projects/animated-landing/screen-01.svg"
+    ]
   },
   {
-    id: "media-case",
-    title: "Визуальный кейс с фото и видео",
-    category: "media",
-    categoryLabel: "Медиа",
-    year: "2026",
-    role: "Photo, video, presentation",
-    cover: "assets/projects/media-case/cover.svg",
-    summary: "Место для демонстрации роликов, процесса, кадров проекта и результата.",
-    description:
-      "Добавляй сюда фотографии, обложки видео, ссылки на ролики, презентации и любые визуальные материалы, которые усиливают твой кейс.",
-    links: [
+    "id": "media-case",
+    "title": "Визуальный кейс с фото и видео",
+    "category": "media",
+    "categoryLabel": "Медиа",
+    "year": "2026",
+    "role": "Photo, video, presentation",
+    "cover": "assets/projects/media-case/cover.svg",
+    "summary": "Место для демонстрации роликов, процесса, кадров проекта и результата.",
+    "description": "Добавляй сюда фотографии, обложки видео, ссылки на ролики, презентации и любые визуальные материалы, которые усиливают твой кейс.",
+    "links": [
       {
-        label: "Демо",
-        url: "https://f0rt1qx.github.io/Interface-Lab/",
-      },
+        "label": "Демо",
+        "url": "https://f0rt1qx.github.io/Interface-Lab/"
+      }
     ],
-    gallery: [
+    "gallery": [
       "assets/projects/media-case/cover.svg",
-      "assets/projects/media-case/screen-01.svg",
-    ],
-  },
+      "assets/projects/media-case/screen-01.svg"
+    ]
+  }
 ];
