@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "add-project": "node tools/add-project.mjs",
+    "edit-project": "node tools/edit-project.mjs",
     "remove-project": "node tools/remove-project.mjs",
-    "check": "node --check script.js && node --check data/projects.js && node --check tools/add-project.mjs && node --check tools/remove-project.mjs"
+    "check": "node --check script.js && node --check data/projects.js && node --check tools/add-project.mjs && node --check tools/edit-project.mjs && node --check tools/remove-project.mjs"
   }
 }
