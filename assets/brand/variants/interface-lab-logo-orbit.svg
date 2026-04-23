@@ -1,0 +1,18 @@
+<svg width="280" height="72" viewBox="0 0 280 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Interface Lab Orbit Logo</title>
+  <desc id="desc">Interface Lab logo with orbiting nodes around a UI monogram.</desc>
+  <rect width="280" height="72" rx="24" fill="#17201B"/>
+  <circle cx="36" cy="36" r="27" fill="#FFF7EA"/>
+  <path d="M23 22V50" stroke="#17201B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M36 22V50H51" stroke="#17201B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 36C13 23.2975 23.2975 13 36 13C48.7025 13 59 23.2975 59 36" stroke="#D85F2B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M59 36C59 48.7025 48.7025 59 36 59C23.2975 59 13 48.7025 13 36" stroke="#7F8F63" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="13" cy="36" r="4" fill="#D85F2B"/>
+  <circle cx="59" cy="36" r="4" fill="#D7B56D"/>
+  <text x="78" y="34" fill="#FFF7EA" font-family="Playfair Display, Georgia, serif" font-size="25" font-weight="800" letter-spacing="-1.2">Interface</text>
+  <text x="78" y="54" fill="#D7B56D" font-family="Manrope, Segoe UI, sans-serif" font-size="14" font-weight="800" letter-spacing="4">LABORATORY</text>
+  <path d="M213 24C230 21 246 26 258 39" stroke="#FFF7EA" stroke-opacity="0.25" stroke-width="2" stroke-linecap="round"/>
+  <path d="M205 48C224 55 243 51 260 35" stroke="#FFF7EA" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="214" cy="24" r="4" fill="#D85F2B"/>
+  <circle cx="260" cy="35" r="4" fill="#7F8F63"/>
+</svg>

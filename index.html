@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио веб-дизайнера и веб-разработчика: кейсы, визуальные концепции, сайты, фото, видео и контакты."
+    />
+    <title>Interface Lab | Веб-дизайнер и разработчик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-noise" aria-hidden="true"></div>
+
+    <header class="header">
+      <a class="brand" href="#top" aria-label="На главную">
+        <img
+          class="brand__mark-logo"
+          src="assets/brand/variants/interface-lab-mark-minimal.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <span class="brand__name">Interface Lab</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+
+      <nav class="nav" id="main-nav" aria-label="Главная навигация">
+        <a href="#works">Работы</a>
+        <a href="#media">Медиа</a>
+        <a href="#process">Процесс</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Веб-дизайн / UI / Frontend</p>
+          <h1>Портфолио, которое показывает вкус, логику и умение доводить идею до сайта.</h1>
+          <p class="hero__lead">
+            Я создаю визуальные концепции, интерфейсы и веб-страницы, которые помогают брендам выглядеть
+            уверенно. Здесь будут собраны мои лучшие работы: сайты, макеты, видео, фото и эксперименты.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#works">Смотреть работы</a>
+            <a class="button button--ghost" href="#contact">Связаться</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-label="Визуальный превью-блок портфолио">
+          <div class="preview-card preview-card--main">
+            <span class="preview-card__tag">Selected case</span>
+            <h2>Landing page для сильного первого впечатления</h2>
+            <p>Композиция, типографика, адаптив и интерактивные детали.</p>
+          </div>
+          <div class="preview-card preview-card--floating">
+            <span>UI Kit</span>
+            <strong>28+</strong>
+            <small>экранов и компонентов</small>
+          </div>
+          <div class="orb orb--one"></div>
+          <div class="orb orb--two"></div>
+        </div>
+      </section>
+
+      <section class="stats section reveal" aria-label="Ключевые направления">
+        <article>
+          <strong>01</strong>
+          <span>Веб-дизайн</span>
+        </article>
+        <article>
+          <strong>02</strong>
+          <span>Адаптивная верстка</span>
+        </article>
+        <article>
+          <strong>03</strong>
+          <span>Фото и видео в кейсах</span>
+        </article>
+      </section>
+
+      <section class="works section" id="works">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Избранные проекты</p>
+          <h2>Работы, которые можно быстро показать работодателю.</h2>
+          <p>
+            Заменишь карточки на свои кейсы: добавишь скриншоты, ссылки, описание задачи, роль и результат.
+          </p>
+        </div>
+
+        <div class="filters reveal" aria-label="Фильтр работ">
+          <button class="filter is-active" type="button" data-filter="all">Все</button>
+          <button class="filter" type="button" data-filter="design">Дизайн</button>
+          <button class="filter" type="button" data-filter="frontend">Разработка</button>
+          <button class="filter" type="button" data-filter="media">Медиа</button>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal" data-category="design">
+            <div class="work-card__image work-card__image--sand">
+              <span>01</span>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__meta">UI concept / 2026</p>
+              <h3>Концепт сайта для креативной студии</h3>
+              <p>Главная страница, визуальная система, сетка, карточки услуг и стиль презентации.</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="frontend">
+            <div class="work-card__image work-card__image--ink">
+              <span>02</span>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__meta">Frontend / HTML CSS JS</p>
+              <h3>Адаптивный лендинг с анимациями</h3>
+              <p>Чистая структура, быстрый первый экран, интерактивные блоки и мобильная версия.</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="media">
+            <div class="work-card__image work-card__image--green">
+              <span>03</span>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__meta">Photo / Video</p>
+              <h3>Визуальный кейс с фото и видео</h3>
+              <p>Место для демонстрации роликов, процесса, кадров проекта и короткого описания результата.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="media section" id="media">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Медиа-архив</p>
+          <h2>Зона для загрузки видео, фотографий и демонстраций.</h2>
+        </div>
+
+        <div class="media-layout">
+          <article class="media-feature reveal">
+            <div class="play-button" aria-hidden="true"></div>
+            <p>Видео-презентация</p>
+            <h3>Покажи процесс, а не только финальный экран.</h3>
+          </article>
+
+          <div class="media-list reveal">
+            <article>
+              <span>Фото</span>
+              <strong>Скриншоты интерфейсов, мокапы, детали макетов.</strong>
+            </article>
+            <article>
+              <span>Видео</span>
+              <strong>Записи экрана, анимации, walkthrough по проекту.</strong>
+            </article>
+            <article>
+              <span>Файлы</span>
+              <strong>Ссылки на Figma, GitHub, презентации и PDF.</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" id="process">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Как я работаю</p>
+          <h2>От идеи до аккуратной реализации.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <span>01</span>
+            <h3>Исследование</h3>
+            <p>Разбираю задачу, аудиторию, стиль бренда и цель страницы.</p>
+          </article>
+          <article class="timeline__item reveal">
+            <span>02</span>
+            <h3>Дизайн-система</h3>
+            <p>Собираю типографику, цвета, компоненты и визуальный ритм.</p>
+          </article>
+          <article class="timeline__item reveal">
+            <span>03</span>
+            <h3>Верстка</h3>
+            <p>Перевожу макет в адаптивный интерфейс и добавляю живые детали.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section reveal" id="contact">
+        <p class="eyebrow">Открыт к проектам</p>
+        <h2>Если вам нужен дизайнер с пониманием веб-разработки, давайте познакомимся.</h2>
+        <div class="contact__links">
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="https://t.me/username" target="_blank" rel="noreferrer">Telegram</a>
+          <a href="https://github.com/username" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Interface Lab. Сделано для сильной презентации работ.</p>
+      <a href="#top">Наверх</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

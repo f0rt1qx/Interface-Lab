@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interface Lab | Logo Variants</title>
+    <style>
+      :root {
+        --bg: #f5efe5;
+        --ink: #17201b;
+        --muted: #746d60;
+        --line: rgba(23, 32, 27, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: Manrope, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at 12% 18%, rgba(216, 95, 43, 0.18), transparent 24rem),
+          linear-gradient(135deg, #f8f1e6, #eadcc7);
+      }
+
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+
+      h1 {
+        max-width: 760px;
+        margin: 0 0 12px;
+        font-size: clamp(2.6rem, 7vw, 5.6rem);
+        line-height: 0.95;
+        letter-spacing: -0.07em;
+      }
+
+      p {
+        max-width: 680px;
+        margin: 0 0 34px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        display: grid;
+        gap: 18px;
+        min-height: 260px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 30px;
+        background: rgba(255, 251, 242, 0.72);
+        box-shadow: 0 20px 60px rgba(23, 32, 27, 0.1);
+      }
+
+      .card__preview {
+        display: grid;
+        min-height: 150px;
+        place-items: center;
+        padding: 22px;
+        border-radius: 22px;
+        background:
+          linear-gradient(45deg, rgba(23, 32, 27, 0.05) 25%, transparent 25%),
+          linear-gradient(-45deg, rgba(23, 32, 27, 0.05) 25%, transparent 25%),
+          #fff7ea;
+        background-size: 22px 22px;
+      }
+
+      img {
+        max-width: min(100%, 360px);
+        height: auto;
+      }
+
+      .mark {
+        width: 118px;
+      }
+
+      h2 {
+        margin: 0 0 6px;
+        font-size: 1.1rem;
+      }
+
+      .card p {
+        margin: 0;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 760px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Interface Lab: варианты логотипа</h1>
+      <p>Открой эту страницу в браузере и выбери, какой стиль лучше подходит твоему портфолио. После выбора можно подключить понравившийся вариант в шапку сайта.</p>
+
+      <section class="grid" aria-label="Варианты логотипа Interface Lab">
+        <article class="card">
+          <div class="card__preview">
+            <img src="assets/brand/interface-lab-logo.svg" alt="Current Interface Lab logo" />
+          </div>
+          <div>
+            <h2>Current UI Lab</h2>
+            <p>Баланс дизайна и разработки: интерфейсные линии, узлы и спокойный премиальный вид.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__preview">
+            <img src="assets/brand/variants/interface-lab-logo-grid.svg" alt="Grid logo variant" />
+          </div>
+          <div>
+            <h2>Grid System</h2>
+            <p>Более дизайнерский и модульный вариант: хорошо подходит для UI/UX и дизайн-систем.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__preview">
+            <img src="assets/brand/variants/interface-lab-logo-orbit.svg" alt="Orbit logo variant" />
+          </div>
+          <div>
+            <h2>Orbit Lab</h2>
+            <p>Чуть более необычный и брендовый: ощущение эксперимента, движения и лаборатории.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__preview">
+            <img src="assets/brand/variants/interface-lab-logo-terminal.svg" alt="Terminal logo variant" />
+          </div>
+          <div>
+            <h2>Terminal UI</h2>
+            <p>Больше про веб-разработку: окно интерфейса, код и уверенный frontend-вайб.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__preview">
+            <img class="mark" src="assets/brand/variants/interface-lab-mark-minimal.svg" alt="Minimal logo mark variant" />
+          </div>
+          <div>
+            <h2>Minimal Mark</h2>
+            <p>Компактный знак для favicon, аватарки, водяного знака и маленьких мест на сайте.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<svg width="280" height="72" viewBox="0 0 280 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Interface Lab Grid Logo</title>
+  <desc id="desc">Grid-based Interface Lab logo with modular interface blocks.</desc>
+  <rect width="280" height="72" rx="24" fill="#F8F1E6"/>
+  <rect x="10" y="10" width="52" height="52" rx="18" fill="#17201B"/>
+  <path d="M21 22H31V50H21V22Z" fill="#FFF7EA"/>
+  <path d="M37 22H47V41H55V50H37V22Z" fill="#FFF7EA"/>
+  <path d="M20 20H56V52" stroke="#D85F2B" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 5"/>
+  <circle cx="56" cy="52" r="4" fill="#D85F2B"/>
+  <text x="78" y="34" fill="#17201B" font-family="Manrope, Segoe UI, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.9">Interface</text>
+  <text x="78" y="54" fill="#7F8F63" font-family="Manrope, Segoe UI, sans-serif" font-size="18" font-weight="800" letter-spacing="2.2">LAB</text>
+  <rect x="198" y="18" width="18" height="18" rx="5" fill="#D85F2B"/>
+  <rect x="220" y="18" width="18" height="18" rx="5" fill="#D7B56D"/>
+  <rect x="242" y="18" width="18" height="18" rx="5" fill="#7F8F63"/>
+  <rect x="198" y="40" width="18" height="18" rx="5" fill="#17201B"/>
+  <rect x="220" y="40" width="18" height="18" rx="5" fill="#17201B" opacity="0.7"/>
+  <rect x="242" y="40" width="18" height="18" rx="5" fill="#17201B" opacity="0.42"/>
+</svg>

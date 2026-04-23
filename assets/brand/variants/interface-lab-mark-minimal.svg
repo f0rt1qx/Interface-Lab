@@ -1,0 +1,11 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Interface Lab Minimal Mark</title>
+  <desc id="desc">Minimal square Interface Lab monogram mark.</desc>
+  <rect width="160" height="160" rx="44" fill="#17201B"/>
+  <rect x="32" y="32" width="96" height="96" rx="28" fill="#FFF7EA"/>
+  <path d="M41 121H121V39" stroke="#D85F2B" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 11"/>
+  <path d="M56 50V110" stroke="#17201B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M83 50V110H111" stroke="#17201B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="41" cy="121" r="7" fill="#7F8F63"/>
+  <circle cx="121" cy="39" r="7" fill="#D7B56D"/>
+</svg>
