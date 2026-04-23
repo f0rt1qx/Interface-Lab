@@ -1,0 +1,11 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="56" fill="#D7B56D"/>
+  <circle cx="930" cy="160" r="170" fill="#FFF7EA" fill-opacity=".45"/>
+  <rect x="92" y="88" width="1016" height="624" rx="42" fill="#17201B"/>
+  <rect x="140" y="138" width="330" height="36" rx="18" fill="#FFF7EA"/>
+  <rect x="140" y="226" width="560" height="86" rx="22" fill="#FFF7EA" fill-opacity=".9"/>
+  <rect x="140" y="346" width="250" height="220" rx="28" fill="#D85F2B"/>
+  <rect x="420" y="346" width="250" height="220" rx="28" fill="#7F8F63"/>
+  <rect x="700" y="346" width="250" height="220" rx="28" fill="#ECE0CA"/>
+  <text x="140" y="644" fill="#FFF7EA" font-family="Manrope, Segoe UI, sans-serif" font-size="42" font-weight="800">Creative Studio</text>
+</svg>

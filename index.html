@@ -107,39 +107,8 @@
           <button class="filter" type="button" data-filter="media">Медиа</button>
         </div>
 
-        <div class="work-grid">
-          <article class="work-card reveal" data-category="design">
-            <div class="work-card__image work-card__image--sand">
-              <span>01</span>
-            </div>
-            <div class="work-card__body">
-              <p class="work-card__meta">UI concept / 2026</p>
-              <h3>Концепт сайта для креативной студии</h3>
-              <p>Главная страница, визуальная система, сетка, карточки услуг и стиль презентации.</p>
-            </div>
-          </article>
-
-          <article class="work-card reveal" data-category="frontend">
-            <div class="work-card__image work-card__image--ink">
-              <span>02</span>
-            </div>
-            <div class="work-card__body">
-              <p class="work-card__meta">Frontend / HTML CSS JS</p>
-              <h3>Адаптивный лендинг с анимациями</h3>
-              <p>Чистая структура, быстрый первый экран, интерактивные блоки и мобильная версия.</p>
-            </div>
-          </article>
-
-          <article class="work-card reveal" data-category="media">
-            <div class="work-card__image work-card__image--green">
-              <span>03</span>
-            </div>
-            <div class="work-card__body">
-              <p class="work-card__meta">Photo / Video</p>
-              <h3>Визуальный кейс с фото и видео</h3>
-              <p>Место для демонстрации роликов, процесса, кадров проекта и короткого описания результата.</p>
-            </div>
-          </article>
+        <div class="work-grid" id="projects-grid" aria-live="polite">
+          <p class="projects-empty">Проекты загружаются...</p>
         </div>
       </section>
 
@@ -214,6 +183,21 @@
       <a href="#top">Наверх</a>
     </footer>
 
+    <div class="project-modal" id="project-modal" aria-hidden="true">
+      <div class="project-modal__backdrop" data-close-modal></div>
+      <article class="project-modal__panel" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+        <button class="project-modal__close" type="button" data-close-modal aria-label="Закрыть проект">×</button>
+        <div class="project-modal__hero" id="project-modal-gallery"></div>
+        <div class="project-modal__content">
+          <p class="project-modal__meta" id="project-modal-meta"></p>
+          <h2 id="project-modal-title"></h2>
+          <p id="project-modal-description"></p>
+          <div class="project-modal__links" id="project-modal-links"></div>
+        </div>
+      </article>
+    </div>
+
+    <script src="data/projects.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
