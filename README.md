@@ -36,9 +36,20 @@ python -m http.server 8000
 
 ## Как добавить проект на сайт
 
-1. Создай папку проекта внутри `assets/projects/`, например `assets/projects/my-project/`.
-2. Положи туда обложку и скриншоты: `cover.jpg`, `screen-01.jpg`, `screen-02.jpg`.
-3. Открой `data/projects.js` и добавь новый объект проекта в массив `window.portfolioProjects`.
-4. Сделай commit и push в GitHub. GitHub Pages обновит сайт автоматически.
+Самый простой способ — запустить мастер добавления проекта:
 
-Подробный пример лежит в `assets/projects/README.md`.
+```powershell
+npm.cmd run add-project
+```
+
+Он спросит название, категорию, описание, ссылки и путь к картинкам. Можно указать одну папку с изображениями или несколько файлов через запятую. Мастер сам скопирует изображения в `assets/projects/`, обновит `data/projects.js` и добавит проект первым в списке.
+
+После проверки сайта останется опубликовать изменения:
+
+```powershell
+git add -A
+git commit -m "Add new portfolio project"
+git push
+```
+
+GitHub Pages обновит сайт автоматически.

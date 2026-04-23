@@ -1,0 +1,10 @@
+{
+  "name": "interface-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "add-project": "node tools/add-project.mjs",
+    "check": "node --check script.js && node --check data/projects.js && node --check tools/add-project.mjs"
+  }
+}

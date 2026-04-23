@@ -1,39 +1,18 @@
 # Как добавлять проекты
 
-Для каждого проекта создай отдельную папку внутри `assets/projects/`.
+Используй мастер:
 
-Пример:
-
-```text
-assets/projects/my-project/
-  cover.jpg
-  screen-01.jpg
-  screen-02.jpg
+```powershell
+npm.cmd run add-project
 ```
 
-После этого добавь проект в `data/projects.js`.
+Что умеет мастер:
 
-Минимальный пример:
-
-```js
-{
-  id: "my-project",
-  title: "Название проекта",
-  category: "design",
-  categoryLabel: "Дизайн",
-  year: "2026",
-  role: "UI design",
-  cover: "assets/projects/my-project/cover.jpg",
-  summary: "Короткое описание для карточки.",
-  description: "Подробное описание проекта для окна просмотра.",
-  links: [
-    { label: "Сайт", url: "https://example.com" }
-  ],
-  gallery: [
-    "assets/projects/my-project/cover.jpg",
-    "assets/projects/my-project/screen-01.jpg"
-  ]
-}
-```
+- спрашивает название, категорию, год, роль, короткое и подробное описание;
+- принимает ссылки в формате `GitHub=https://github.com/user/repo, Сайт=https://example.com`;
+- принимает путь к папке с картинками или несколько файлов через запятую;
+- копирует изображения в новую папку внутри `assets/projects/`;
+- обновляет `data/projects.js`;
+- ставит новый проект первым в списке.
 
 Категории для фильтров: `design`, `frontend`, `media`.
