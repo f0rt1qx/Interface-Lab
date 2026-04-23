@@ -1,5 +1,28 @@
 window.portfolioProjects = [
   {
+    id: "sapienta",
+    title: "Sapienta",
+    category: "frontend",
+    categoryLabel: "Веб-платформа",
+    year: "2026",
+    role: "PHP, MySQL, HTML, CSS, JavaScript",
+    cover: "assets/projects/Sapienta/cover.png",
+    summary:
+      "Платформа для онлайн-тестирования студентов с личным кабинетом, админ-панелью, результатами и контролем прохождения.",
+    description:
+      "Sapienta — учебная веб-система для проведения онлайн-тестирования. В проекте реализованы регистрация и авторизация пользователей, личный кабинет студента, прохождение тестов с таймером, автоматическое сохранение результатов, админ-панель для управления пользователями, тестами и вопросами, импорт тестов из CSV, античит-логи и запись экрана во время тестирования. Стек проекта: PHP 8+, MySQL/MariaDB, HTML, CSS и JavaScript; для безопасности используются JWT, сессии, CSRF-защита, подготовленные SQL-запросы и проверка роли администратора.",
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/f0rt1qx/TestPlatform",
+      },
+    ],
+    gallery: [
+      "assets/projects/Sapienta/cover.png",
+      "assets/projects/Sapienta/screen-01.png",
+    ],
+  },
+  {
     id: "creative-studio",
     title: "Концепт сайта для креативной студии",
     category: "design",
