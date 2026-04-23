@@ -78,26 +78,5 @@ window.portfolioProjects = [
       "assets/projects/animated-landing/cover.svg",
       "assets/projects/animated-landing/screen-01.svg"
     ]
-  },
-  {
-    "id": "media-case",
-    "title": "Визуальный кейс с фото и видео",
-    "category": "media",
-    "categoryLabel": "Медиа",
-    "year": "2026",
-    "role": "Photo, video, presentation",
-    "cover": "assets/projects/media-case/cover.svg",
-    "summary": "Место для демонстрации роликов, процесса, кадров проекта и результата.",
-    "description": "Добавляй сюда фотографии, обложки видео, ссылки на ролики, презентации и любые визуальные материалы, которые усиливают твой кейс.",
-    "links": [
-      {
-        "label": "Демо",
-        "url": "https://f0rt1qx.github.io/Interface-Lab/"
-      }
-    ],
-    "gallery": [
-      "assets/projects/media-case/cover.svg",
-      "assets/projects/media-case/screen-01.svg"
-    ]
   }
 ];
