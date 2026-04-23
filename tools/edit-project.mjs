@@ -79,9 +79,11 @@ const parseLinks = (value, currentLinks) => {
     .map((item) => {
       const [label, ...urlParts] = item.split("=");
       const url = urlParts.join("=").trim();
+      const [rawLabel, rawIcon] = label.split("|").map((part) => part.trim());
 
       return {
-        label: label.trim() || "Ссылка",
+        label: rawLabel || "Ссылка",
+        ...(rawIcon ? { icon: rawIcon } : {}),
         url,
       };
     })
@@ -161,7 +163,8 @@ const formatProjectLine = (project, index) => {
   return `${index + 1}. ${project.title} | ${category} | ${year} | id: ${project.id}`;
 };
 
-const formatLinks = (links = []) => links.map((link) => `${link.label}=${link.url}`).join(", ");
+const formatLinks = (links = []) =>
+  links.map((link) => `${link.label}${link.icon ? `|${link.icon}` : ""}=${link.url}`).join(", ");
 
 const main = async () => {
   const projects = await loadProjects();
@@ -200,7 +203,7 @@ const main = async () => {
     const description = await askOptional(rl, "Подробное описание", project.description);
     const links = await askOptional(
       rl,
-      "Ссылки через запятую в формате Название=https://example.com",
+      "Ссылки через запятую: GitHub=https://github.com/user/repo или Figma|figma=https://figma.com/file/...",
       formatLinks(project.links),
     );
     const images = await askOptional(

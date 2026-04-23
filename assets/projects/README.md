@@ -17,6 +17,20 @@ npm.cmd run add-project
 
 Категории для фильтров: `design`, `frontend`, `media`.
 
+## Ссылки с иконками
+
+В поле ссылок можно писать так:
+
+```text
+GitHub=https://github.com/user/repo, Figma=https://figma.com/file/..., Сайт=https://example.com
+```
+
+Иконка появится автоматически. Если нужно выбрать иконку вручную:
+
+```text
+Документация|link=https://example.com/docs, Прототип|figma=https://figma.com/file/...
+```
+
 ## Как редактировать проект
 
 Запусти:

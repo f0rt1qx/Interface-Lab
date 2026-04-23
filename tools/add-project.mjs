@@ -127,9 +127,11 @@ const parseLinks = (value) => {
     .map((item) => {
       const [label, ...urlParts] = item.split("=");
       const url = urlParts.join("=").trim();
+      const [rawLabel, rawIcon] = label.split("|").map((part) => part.trim());
 
       return {
-        label: label.trim() || "Ссылка",
+        label: rawLabel || "Ссылка",
+        ...(rawIcon ? { icon: rawIcon } : {}),
         url,
       };
     })
@@ -194,7 +196,7 @@ const main = async () => {
     const description = await ask(rl, "Подробное описание для окна проекта", summary);
     const linksInput = await ask(
       rl,
-      "Ссылки через запятую в формате Название=https://example.com",
+      "Ссылки через запятую: GitHub=https://github.com/user/repo или Figma|figma=https://figma.com/file/...",
       "",
     );
     const imagesInput = await ask(
